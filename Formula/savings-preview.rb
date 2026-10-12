@@ -1,28 +1,28 @@
 class SavingsPreview < Formula
   desc "Read a cluster's usage history and show what Thoras would have saved"
   homepage "https://github.com/thoras-ai/savings-preview"
-  version "0.2.3"
+  version "0.2.5"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/thoras-ai/savings-preview/releases/download/v0.2.3/savings-preview_v0.2.3_darwin_arm64.tar.gz"
-      sha256 "908e2eb822d45ebb422835d2c2f3fc793c325896185ec78049a941a2cd55667a"
+      url "https://github.com/thoras-ai/savings-preview/releases/download/v0.2.5/savings-preview_v0.2.5_darwin_arm64.tar.gz"
+      sha256 "1414948fcde774b2f30922ae8d67c8105a8d11b3e80747e6837be6dd674b07bc"
     end
     on_intel do
-      url "https://github.com/thoras-ai/savings-preview/releases/download/v0.2.3/savings-preview_v0.2.3_darwin_amd64.tar.gz"
-      sha256 "e6a2d1187f9baed4aa6444a2d07fc3b91389b0a8e8352bc6f77efd325dfc9aaa"
+      url "https://github.com/thoras-ai/savings-preview/releases/download/v0.2.5/savings-preview_v0.2.5_darwin_amd64.tar.gz"
+      sha256 "4ca89a6f1c34ef20b5d9bacdafc338b30d08dd187af1f80ebb1e869966d5ac89"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/thoras-ai/savings-preview/releases/download/v0.2.3/savings-preview_v0.2.3_linux_arm64.tar.gz"
-      sha256 "d811df141bcbca233675a738474ad576d422caf7797978ae704e61158ff846a5"
+      url "https://github.com/thoras-ai/savings-preview/releases/download/v0.2.5/savings-preview_v0.2.5_linux_arm64.tar.gz"
+      sha256 "2cbc2320a4a5a0848528682b8160c230283ff587ab78331b83f27d908be7ce45"
     end
     on_intel do
-      url "https://github.com/thoras-ai/savings-preview/releases/download/v0.2.3/savings-preview_v0.2.3_linux_amd64.tar.gz"
-      sha256 "fbc6986a46e566c7dbda39c8163d086a820e233b939e13cbd3d23e433acc11b6"
+      url "https://github.com/thoras-ai/savings-preview/releases/download/v0.2.5/savings-preview_v0.2.5_linux_amd64.tar.gz"
+      sha256 "2f59c886d22a90f5700516a9bdb25b78a18d013efe7a56a1d05919a8d9dd0b7b"
     end
   end
 
