@@ -9,4 +9,4 @@ brew install thoras-ai/tap/beans   # Thoras engineers only
 
 Each savings-preview release updates `Formula/savings-preview.rb`.
 
-[beans](https://github.com/thoras-ai/beans) is repo memory for decisions and designs. Its source is private, so the formula builds from source and needs Git access to that repository. Use the full name `thoras-ai/tap/beans`; `hmans/beans/beans` is a different build. Updating `Formula/beans.rb` takes a reviewed PR, because it decides what runs on engineers' machines.
+[beans](https://github.com/thoras-ai/beans) is repo memory for decisions and designs. Its source is private, so the formula builds from source and needs Git access to that repository. Log in with `gh auth login` and run `gh auth setup-git` first, with `gh` on your `PATH`. Use the full name `thoras-ai/tap/beans`; `hmans/beans/beans` is a different build. Updating `Formula/beans.rb` takes a reviewed PR, because it decides what runs on engineers' machines.
