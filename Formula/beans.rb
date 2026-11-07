@@ -1,8 +1,7 @@
 class Beans < Formula
   desc "Repo memory for decisions and designs, for engineers and coding agents"
   homepage "https://github.com/thoras-ai/beans"
-  url "https://github.com/thoras-ai/beans.git", revision: "85986374354d57d33c71a1fa391d340f4d4bad90"
-  version "0.5.0-rc.1"
+  url "https://github.com/thoras-ai/beans.git", tag: "v0.5.0", revision: "ccf3e1443860010d05a2abe07bb7f710412edb96"
   license "Apache-2.0"
 
   depends_on "go" => :build
